@@ -1,0 +1,4 @@
+# The GitHub "About" box.
+repository:
+  description: "Telegram trading bot for tokens: signals, limits and stop-loss in one chat."
+  topics: telegram, trading-bot, tokens, crypto, signals, bot, python

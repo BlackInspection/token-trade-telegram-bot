@@ -1,0 +1,122 @@
+{
+  "key": "crypto-trading-bot",
+  "accent": [
+    "#10B981",
+    "#60A5FA"
+  ],
+  "bot": "Crypto Trading Bot",
+  "initials": "CT",
+  "subtitle": "Reply to a pasted token address",
+  "time": "21:20",
+  "lines": [
+    [
+      {
+        "t": "YELLOW",
+        "s": "warn"
+      },
+      {
+        "t": " · Be careful",
+        "s": "title"
+      },
+      {
+        "t": " · MOCKTHIN (base)",
+        "s": "muted"
+      }
+    ],
+    "",
+    [
+      {
+        "t": "• The trading pool is small ($24.00K); bigger sells move the price against you.",
+        "s": "body"
+      }
+    ],
+    [
+      {
+        "t": "• Buying $50 and selling right away gives back about $46.34: 7.3% lost to fees, taxes and price impact.",
+        "s": "body"
+      }
+    ],
+    [
+      {
+        "t": "• Selling costs a 3% tax: from $50 you would get back about $48.50 before any price move.",
+        "s": "body"
+      }
+    ],
+    "",
+    [
+      {
+        "t": "Put in $50, sell right away, get back ",
+        "s": "body"
+      },
+      {
+        "t": "~$46.34 (-7.3%)",
+        "s": "bad"
+      },
+      {
+        "t": " · break-even ",
+        "s": "body"
+      },
+      {
+        "t": "+7.9%",
+        "s": "mono"
+      },
+      {
+        "t": " · no buy size keeps the round trip under 3%: the 3%+3% token tax alone is ~6% (pool-size estimate, mock data)",
+        "s": "body"
+      }
+    ],
+    [
+      {
+        "t": "Timing: uptrend just started",
+        "s": "muted"
+      }
+    ],
+    [
+      {
+        "t": "Checked 12/12 · missing: none",
+        "s": "good"
+      }
+    ],
+    [
+      {
+        "t": "Not on CoinGecko yet, normal for new tokens.",
+        "s": "muted"
+      }
+    ],
+    [
+      {
+        "t": "data 0 s old",
+        "s": "muted"
+      }
+    ],
+    "",
+    [
+      {
+        "t": "MOCKTHIN / WETH · base · uniswap",
+        "s": "quote"
+      }
+    ],
+    [
+      {
+        "t": "0x7410000000000000000000000000000000007410",
+        "s": "quote"
+      }
+    ],
+    [
+      {
+        "t": "Price: $0.04377  (5m +0.75% | 1h +2.52% | 24h -15.81%)",
+        "s": "quote"
+      }
+    ]
+  ],
+  "buttons": [
+    [
+      "Watch",
+      "Practice-buy $25"
+    ],
+    [
+      "Copy address",
+      "Chart"
+    ]
+  ]
+}

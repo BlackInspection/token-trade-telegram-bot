@@ -1,0 +1,16 @@
+{
+  "key": "crypto-trading-bot",
+  "title": "Crypto Trading Bot",
+  "eyebrow": "EVM · Solana · DEX",
+  "tagline": "Shows what you'd get back after every fee before you buy, and keeps watching after you do",
+  "chips": [
+    "Practice mode by default",
+    "Node.js 22.13+",
+    "grammY"
+  ],
+  "accent": [
+    "#10B981",
+    "#60A5FA"
+  ],
+  "icon": "candles"
+}
