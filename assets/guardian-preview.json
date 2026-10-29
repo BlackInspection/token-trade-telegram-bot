@@ -1,0 +1,26 @@
+{
+  "key": "crypto-trading-bot-guardian",
+  "accent": ["#10B981", "#60A5FA"],
+  "bot": "Crypto Trading Bot",
+  "initials": "CT",
+  "subtitle": "Position Guardian alert",
+  "time": "21:20",
+  "lines": [
+    [
+      { "t": "PRACTICE ", "s": "warn" },
+      { "t": "GUARDIAN [MOCKRUG] Sell tax went from 5% to 35%. Selling now would cost about $17 of your $50 position. Action: practice SELL 100% (got back $32.59)", "s": "title" }
+    ],
+    "",
+    [{ "t": "Why: Tax: 5% -> 35%. Early warning, not insurance: polling cannot beat a same-block rug.", "s": "quote" }],
+    [{ "t": "severity critical", "s": "quote" }],
+    [{ "t": "guardian event #1", "s": "quote" }],
+    [{ "t": "decision #26 (/why 26)", "s": "quote" }],
+    [
+      { "t": "Risk: ", "s": "muted" },
+      { "t": "Critical: this can cost most of the position.", "s": "bad" }
+    ]
+  ],
+  "buttons": [
+    ["Why?"]
+  ]
+}

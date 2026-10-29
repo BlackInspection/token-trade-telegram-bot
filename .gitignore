@@ -1,0 +1,24 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Runtime data (database, event log, mock run). Anchored to the repo root: a bare "data/" would also hide src/data/,
+# the data-source code.
+/data/
+*.db
+*.db-*
+*.sqlite
+*.log
+
+# Telegram sessions
+*.session
+*.session-journal
+sessions/
+
+# Dependencies and tool caches
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
