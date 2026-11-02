@@ -1,6 +1,6 @@
 {
   "name": "solana-crypto-telegram-trading-bot",
-  "version": "1.3.89",
+  "version": "1.3.90",
   "description": "Token analyzer + practice / link / live trading bot (DexScreener, GoPlus, GeckoTerminal, Jupiter, KyberSwap) with a grammY Telegram interface",
   "type": "module",
   "private": true,

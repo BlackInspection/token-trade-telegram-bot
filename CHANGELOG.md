@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.3.90 · 2026-11-02
+
+- Contract events refresh without a stall when the RPC lags.
+- The alert keeps its format after a token rename.
+- Faster startup with a long watch list.
+- Fixed the balance row on wallets with many decimals.
+
+
 All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
